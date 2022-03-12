@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
-import Colors from "../Constants/colors";
+import Plantillas from "../Constants/plantillas";
 
 
 const Header = props => {
@@ -20,13 +20,14 @@ const styles = StyleSheet.create({
         width: "100%",
         height: 50,
         // paddingTop: 36,
-        backgroundColor: Colors.backColor,
+        backgroundColor: Plantillas.backColor,
         alignItems: "center",
         justifyContent: "center"
     },
     headerTitle: {
-        color: "black",
-        fontSize: 30
+        color: "#fffaf0",
+        fontSize: 40,
+        fontFamily: Plantillas.titleFontHeader,
     }
   })
   
