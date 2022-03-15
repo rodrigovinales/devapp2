@@ -8,7 +8,7 @@ Para ello tuve que crear un archivo llamado _react-native.config.js_ la cual hac
 
 Luego modificar el archivo _package.json_ indicándole un código ya deprecado (o a punto de serlo). Que en definitiva, para eso se agrega el archivo _react-native.config.js_
 
-Se utilizan imagenes locales e imagenes llamadas desde "uri".
+Se utilizan imagenes locales e imagenes llamadas desde la web, utilizando "uri".
 Se arma un archivo denominado _Plantillas.js_ para contener de forma predeterminada colores o fuentes para reutilizar en código.
 
 Hago uso, también, de los estilos contenidos dentro del mismo JS, ademas de utilizar el denominado _Plantillas.js_
