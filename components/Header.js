@@ -2,13 +2,11 @@ import React from "react";
 import { Text, View, StyleSheet } from "react-native";
 import Plantillas from "../Constants/plantillas";
 
-
 const Header = props => {
 
     const { titulo } = props;
 
     return (
-
         <View style={styles.header}>
             <Text style={styles.headerTitle}>{titulo}</Text>
         </View>
@@ -30,6 +28,4 @@ const styles = StyleSheet.create({
         fontFamily: Plantillas.titleFontHeader,
     }
   })
-  
-
 export default Header;
